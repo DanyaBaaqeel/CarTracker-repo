@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="nyx.com.cartracker.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/rental_icon"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELF TRAFFIC VIOLATIONS DETECTOR SYSTEM (STVDS)"
+       android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome_text"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="#7b7b7b"
+        android:layout_marginBottom="50dp"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_type"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="50dp"
+        android:layout_margin="10dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:id="@+id/go_speed"
+                android:padding="5dp"
+                android:text="My Current Speed"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:id="@+id/go_location"
+                android:padding="5dp"
+                android:text="Current loction"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:id="@+id/add_car"
+                android:text="Add new car"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:id="@+id/add_driver"
+                android:text="Add new driver"
+                />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:id="@+id/my_cars_btn"
+                android:text="My Cars"
+                />
+
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@color/colorPrimary"-->
+                <!--android:textColor="#fff"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:id="@+id/driver_cars_btn"-->
+                <!--android:text="Cars i drive"-->
+                <!--/>-->
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@color/colorPrimary"-->
+                <!--android:textColor="#fff"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:padding="5dp"-->
+                <!--android:text="My Record"-->
+                <!--/>-->
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:id="@+id/go_logout"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Logout"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

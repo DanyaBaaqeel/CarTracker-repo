@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item android:id="@+id/menu_speed"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Current speed"
+        myapp:showAsAction="never" />
+    <item android:id="@+id/my_position"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="My location"
+        myapp:showAsAction="never" />
+
+    <item android:id="@+id/points_guide"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Point guidlines"
+        myapp:showAsAction="never" />
+    <item android:id="@+id/violeation_guide"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Violation guidlines"
+        myapp:showAsAction="never" />
+    <item android:id="@+id/menu_logout"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Logout"
+        myapp:showAsAction="never" />
+    <item android:id="@+id/menu_exit"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Exit application"
+        myapp:showAsAction="never" />
+
+
+</menu>

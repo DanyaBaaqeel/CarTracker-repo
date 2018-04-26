@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+
+    android:layout_height="match_parent"
+android:background="#fff"
+    tools:context="nyx.com.cartracker.SignupActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="#fff"
+
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/rental_icon"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELF TRAFFIC VIOLATIONS DETECTOR SYSTEM (STVDS)"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please create account here"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="#7b7b7b"
+        android:layout_marginBottom="50dp"
+        android:layout_margin="10dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="#efefef"
+        android:hint="Enter your name here.."
+        android:id="@+id/name_input"
+        android:inputType="text"
+        />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="#efefef"
+            android:hint="Enter your phone here.."
+            android:id="@+id/phone_input"
+            android:inputType="number"
+            />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="#efefef"
+        android:hint="Enter email here.."
+        android:id="@+id/email_input"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="#efefef"
+        android:hint="Enter password here.."
+        android:id="@+id/password_input"
+        android:inputType="textPassword"
+        />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:layout_margin="5dp"
+        android:background="#efefef"
+        android:orientation="vertical">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Owner"
+            android:layout_weight="1"
+            android:id="@+id/radio_owner"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Driver"
+            android:checked="true"
+            android:layout_weight="1"
+            android:id="@+id/radio_driver"
+            />
+
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_margin="5dp"
+        android:text="Register"
+        android:id="@+id/go_signup"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textColor="@color/colorPrimaryDark"
+
+    android:text="you already have an account ?"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_margin="5dp"
+        android:text="Login"
+        android:id="@+id/go_login"
+        />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
