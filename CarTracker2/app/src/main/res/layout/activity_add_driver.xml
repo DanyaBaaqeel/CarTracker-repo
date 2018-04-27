@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="nyx.com.cartracker.AddCar">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#fff"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/rental_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="SELF TRAFFIC VIOLATIONS DETECTOR SYSTEM (STVDS)"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#fff"
+
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                    />
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:background="#efefef"
+                    android:hint="Enter your name here.."
+                    android:id="@+id/name_input"
+                    android:inputType="text"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:background="#efefef"
+                    android:hint="Enter your phone here.."
+                    android:id="@+id/phone_input"
+                    android:inputType="number"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:background="#efefef"
+                    android:hint="Enter email here.."
+                    android:id="@+id/email_input"
+                    android:inputType="textEmailAddress"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:background="#efefef"
+                    android:hint="Enter password here.."
+                    android:id="@+id/password_input"
+                    android:inputType="textPassword"
+                    />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:text="Select driver Car"
+    />
+                <Spinner
+                    android:id="@+id/drivers_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Login" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:text="Create driver"
+                    android:id="@+id/go_create"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="nyx.com.cartracker.SignupActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#fff"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/rental_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="SELF TRAFFIC VIOLATIONS DETECTOR SYSTEM (STVDS)"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                android:text="Enter your car details"
+                android:textColor="#7b7b7b"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/car_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="#efefef"
+                android:hint="Enter the car name here.."
+                android:inputType="text"
+                android:padding="5dp" />
+
+            <EditText
+                android:id="@+id/car_num"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="#efefef"
+                android:hint="Enter the car number here.."
+                android:inputType="number"
+                android:padding="5dp" />
+
+            <EditText
+                android:id="@+id/car_details"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="#efefef"
+                android:hint="Enter Car detials here (type  , color ,..)"
+                android:inputType="text"
+                android:lines="5"
+                android:padding="5dp" />
+
+
+
+
+            <Button
+                android:id="@+id/go_create"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:text="Create Car"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
